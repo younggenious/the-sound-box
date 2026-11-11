@@ -129,5 +129,16 @@ footer{max-width:1168px;border-top:1px solid #e8e4db;margin:auto;padding:22px 30
   .record-left{margin-bottom:18px}.mic-visual{height:90px}
 }
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;scroll-behavior:auto!important;transition-duration:.01ms!important}}
+.header-tools{display:flex;align-items:center;gap:22px}
+.language-control{position:relative;display:flex;align-items:center;gap:8px;padding:8px 12px;border:1px solid #deddd4;border-radius:999px;background:#fffdf8;color:#64716d;font-size:11px}
+.language-control>span:first-child{font-size:14px;color:#82948b}
+.language-control select{appearance:none;border:0;outline:0;background:transparent;color:var(--ink);font:600 11px var(--sans);cursor:pointer;padding-right:12px}
+.language-control select:focus-visible{outline:2px solid #e8897280;outline-offset:2px;border-radius:3px}
+.language-control select option{color:#243033;background:#fff}
+.select-caret{position:absolute;right:12px;pointer-events:none;color:#7e8c87;font-size:14px}
+.hero h1 span{color:#f8f4ec}
+.how p{max-width:190px}
+@media(max-width:760px){.topbar{padding:0 20px}.header-tools{gap:10px}.privacy{font-size:10px}.language-control{padding:7px 10px}.how p{max-width:115px}}
+@media(max-width:430px){.header-tools{gap:7px}.privacy{display:none}.language-control{padding:7px 10px}.language-control select{max-width:104px}.hero h1 em{max-width:100%;overflow-wrap:anywhere}.how p{font-size:10px;max-width:100px}}
 
 
